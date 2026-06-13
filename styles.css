@@ -465,9 +465,9 @@ h3 {
 
 .bracket {
   display: grid;
-  grid-template-columns: 1.15fr 0.98fr 0.85fr 0.9fr 0.85fr 0.98fr 1.15fr;
+  grid-template-columns: 1.15fr 0.9fr 0.95fr 0.9fr 1.15fr;
   gap: clamp(0.75rem, 1.5vw, 1.2rem);
-  max-width: 1420px;
+  max-width: 1100px;
   margin: 0 auto;
   overflow-x: auto;
   padding-bottom: 0.4rem;
@@ -499,11 +499,6 @@ h3 {
 
 .match {
   min-height: 82px;
-}
-
-.left-r16,
-.right-r16 {
-  gap: 0.72rem;
 }
 
 .match span {
@@ -557,14 +552,12 @@ h3 {
   border-top: 2px solid rgba(226, 189, 101, 0.34);
 }
 
-.left-r16 .match::after,
 .left-quarters .match::after,
 .left-semis .match::after {
   display: block;
   left: 100%;
 }
 
-.right-r16 .match::before,
 .right-quarters .match::before,
 .right-semis .match::before {
   display: block;
@@ -741,7 +734,7 @@ h3 {
   }
 
   .bracket {
-    grid-template-columns: repeat(7, 180px);
+    grid-template-columns: repeat(5, 180px);
   }
 }
 
